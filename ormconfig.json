@@ -1,0 +1,7 @@
+{
+    "type": "sqlite",
+    "database": "task_management_db.sqlite",
+    "synchronize": true,
+    "logging": false,
+    "entities": ["src/entity/*.js"]
+}

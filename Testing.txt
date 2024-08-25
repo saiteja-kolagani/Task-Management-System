@@ -1,0 +1,52 @@
+//Users
+Admin: (CRUD)
+{
+    "username": "adminuser",
+    "password": "admin123"
+}
+
+Manager: (CRUD)
+{
+    "username": "manageruser",
+    "password": "manager123"
+}
+
+Team Lead: (R)
+{
+    "username": "teamleaduser",
+    "password": "teamlead123"
+}
+
+Developer: (R)
+{
+    "username": "developeruser",
+    "password": "developer123"
+}
+
+
+
+//Admin Created The Task
+{
+    "title": "Styling Conflict",
+    "description": "The Header section is not enough responsiveness on mobile devices",
+    "status": "Pending",
+    "priority": "High",
+    "assignedUserId": 6
+}
+
+
+
+//Manager Created The Task
+{
+    "title": "Complete Pending Works By EOM",
+    "description": "Work on pending tasks and asap complete them by end of this month",
+    "status": "In Progress",
+    "priority": "Medium",
+    "assignedUserId": 5
+}
+
+
+
+// Get tasks by filtering with the query params
+http://localhost:3000/api/tasks?priority=High&status=Pending&assignedUserId=6
+
