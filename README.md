@@ -15,7 +15,7 @@ The Task Management System is a Node.js application built with Express.js and Ty
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone (https://github.com/saiteja-kolagani/Task-Management-System.git)
+   git clone https://github.com/saiteja-kolagani/Task-Management-System.git
    cd task-management-system
    ```
 
