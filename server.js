@@ -25,6 +25,3 @@ createConnection().then(async () => {
   });
 }).catch(error => console.log(error));
 
-app.use((req, res) => {
-  res.send("<h1>Task Management System API</h1>");
-})
